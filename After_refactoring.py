@@ -1,6 +1,6 @@
 import numpy as np
 
-# פונקציה כללית לחישוב הנגזרת ב-Forward Mode AD
+# פונקציה כללית לחישוב הנגזרת לפי-Forward Mode AD
 def forward_mode_ad(f, x, var_idx):
     n = len(x)
     
